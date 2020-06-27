@@ -1,0 +1,9 @@
+@import "../global.scss";
+
+.mainRow {
+  height: 100%;
+  .mainCol {
+    height: 100%;
+    background: $cyan;
+  }
+}

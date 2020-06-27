@@ -1,0 +1,32 @@
+@import "../global.scss";
+
+.body {
+  background: $cyan;
+  color: $darkGray;
+  height: 15vh;
+  margin: 0;
+  padding: 0;
+
+  .bodyCol {
+    height: 100%;
+
+    .wrapper {
+      height: 100%;
+      .Reciper,
+      .Cooker,
+      .Rafiner,
+      .Another {
+        height: 100%;
+        Col {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .kitButton {
+    background: $orange;
+    width: 100%;
+    height: 100%;
+  }
+}
